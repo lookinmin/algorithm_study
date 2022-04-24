@@ -2,7 +2,7 @@
 
 n = int(input())
 
-arr=[]              #입력받을 배열
+arr=[]                                      #입력받을 배열
 for i in range(n):
     x, y = map(int, input().split())        #좌표 2차원 리스트로 입력
     arr.append([y, x])                      #y기준 정렬이므로 y,x 순으로 append

@@ -10,8 +10,7 @@ for i in range(n):
     cnt += 1                            #append 이후에 cnt ++
 
 arr.sort()                              #정렬
+#파이썬 sort()는 안정적인 정렬을 추구 -> 기본 입력을 최대한 유지하는 선에서 정렬
 
 for i in arr:
     print(i[0], i[2])
-
-

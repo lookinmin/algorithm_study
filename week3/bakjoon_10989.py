@@ -2,7 +2,7 @@
 
 import sys
 
-n = int(sys.stdin.readline())
+n = int(sys.stdin.readline())           #시간제합 5초로 인해 빠른 입력
 arr = [0]*10001
 
 for i in range(n):
