@@ -5,7 +5,7 @@ import sys
 n = int(sys.stdin.readline())
 
 arr = list(map(int, sys.stdin.readline().split()))
-change = list(sorted(set(arr)))  # set() -> 집합화, 중복 자동 제거
+change = list(sorted(set(arr)))  #set() -> 집합화, 중복 자동 제거
 
 dic = {change[i]: i for i in range(len(change))}
 
