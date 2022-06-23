@@ -1,13 +1,8 @@
-num = int(input())
+n = str(input())
 
-for i in range(num):
-    ox_list = list(input())
-    score = 0
-    sum = 0
-    for ox in ox_list:
-        if ox == 'O':
-            score += 1
-            sum += score
-        else :
-            score = 0
-    print(sum)
+
+
+for i in range(len(n)//2):
+    print(n[i:i+2])
+
+
