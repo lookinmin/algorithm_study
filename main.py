@@ -1,8 +1,3 @@
-n = str(input())
-
-
-
-for i in range(len(n)//2):
-    print(n[i:i+2])
-
-
+a, b = map(float, input().split())
+c = a * b
+print(c)
